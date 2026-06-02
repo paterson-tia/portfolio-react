@@ -33,9 +33,14 @@ nav a:hover {
 }
 
 section {
-  padding: 60px 20px;
+  padding: 70px 20px;
   max-width: 900px;
   margin: auto;
+  border-bottom: 1px solid #1e293b;
+}
+
+section:last-child {
+  border-bottom: none;
 }
 
 .exp {
@@ -46,5 +51,131 @@ footer {
   text-align: center;
   padding: 40px 20px;
   border-top: 1px solid #1e293b;
+}
+
+footer a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+/*Headings*/
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #3b82f6;
+  margin-bottom: 15px;
+}
+
+/*Text and Links*/
+p {
+  /*color: #cbd5f5;*/
+  color: #cbd5e1;
+  margin-top: 0;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*hero details*/
+.hero p {
+  margin: 8px 0;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #94a3b8;
+}
+
+.location {
+  color: #94a3b8;
+}
+
+/*GitHub button*/
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+/*Skills Card*/
+.skills-container {
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  /*width: calc(50% - 10px);*/ /*Force two cards per row on large screen*/
+  background: #111827;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /*flex: 1 1 250px;*/
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/*Experience ayout*/
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Projects container*/
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #111827;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 

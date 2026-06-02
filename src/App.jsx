@@ -116,7 +116,14 @@ function App() {
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>Coming soon...</p>
+            <div className="projects-container">
+                <div className="project-card">
+                    <p>Personal Portfolio Website</p>
+                    <p>Responsive portfolio built with React and Vite to showcase my
+                        education, skills, and software development projects.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
         </section>
     
         <section id="experience">
