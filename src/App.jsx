@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css' /*Load and apply css styles*/
+import portfolioImg from './assets/portfolio.png'; {/*Store portfolio.png in portfolioImg*/}
 
 function App() {
 
@@ -117,12 +118,33 @@ function App() {
         <section id="projects">
             <h2>Projects</h2>
             <div className="projects-container">
+
                 <div className="project-card">
-                    <p>Personal Portfolio Website</p>
+                    <img src={portfolioImg} alt="Portfolio screenshot" />
+
+                    <h3>Personal Portfolio Website</h3>
                     <p>Responsive portfolio built with React and Vite to showcase my
                         education, skills, and software development projects.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        View Project
+                    </a>
                 </div>
+
+                <div className="project-card">
+                    <h3>Course Planner (In Progress)</h3>
+                    <p>Java application for planning semesters, tracking courses, and
+                        monitoring academic progress.
+                    </p>
+                </div>
+
+                <div className="project-card">
+                    <h3>Data Structures Explorer (Planned)</h3>
+                    <p>C++ project demonstrating linked lists, stacks, queues, trees,
+                        and algorithm analysis.
+                    </p>
+                </div>
+
             </div>
         </section>
     
@@ -193,7 +215,13 @@ function App() {
                 vpatersont@gmail.com
             </a>
         </p>
-        <p>LinkedIn: Coming Soon</p>
+        <p>
+            LinkedIn: Coming Soon
+        </p>
+
+        <p className="footer-note">
+            Built with React, Vite, and CSS.
+        </p>
     </footer>
    </>
   );
