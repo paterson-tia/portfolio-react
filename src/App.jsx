@@ -95,7 +95,7 @@ function App() {
             <div className="edu">
                 <h3>University of Nangui Abrogoua — Abidjan, Ivory Coast</h3>
                 <p>Bachelor's Equivalent (Bac+4) in Fundamental and Applied Sciences</p>
-                <p>Graduated: July 2005 | Language: French</p>
+                <p>Graduated: November 2005 | Language: French</p>
 
                 <h4>Focus Areas</h4>
                 <ul>
