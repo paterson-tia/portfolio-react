@@ -1,5 +1,6 @@
 import './App.css' /*Load and apply css styles*/
 import portfolioImg from './assets/portfolio.png'; {/*Store portfolio.png in portfolioImg*/}
+import coursePlannerImg from './assets/coursePlanner.png'; {/*Store coursePlanner.png in coursePlannerImg*/}
 
 function App() {
 
@@ -121,7 +122,10 @@ function App() {
 
                 <div className="project-card">
 
-                    <img src={portfolioImg} alt="Portfolio screenshot" />
+                    <img 
+                    src={portfolioImg} 
+                    alt="Portfolio screenshot" 
+                    />
 
                     <h3>Personal Portfolio Website</h3>
                     <p>Responsive portfolio built with React and Vite to showcase my
@@ -134,7 +138,12 @@ function App() {
 
                 <div className="project-card">
 
-                    <img src={coursePlannerImg1} alt="Portfolio screenshot" />
+                    <a href={coursePlannerImg} target="_blank" rel="noopener noreferrer" >
+                        <img 
+                            src={coursePlannerImg} 
+                            alt="Portfolio screenshot" 
+                        />
+                    </a>
 
                     <h3>Course Planner</h3>
                     <p>Java 21 console application that manages college courses, students, and 
