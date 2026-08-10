@@ -120,6 +120,7 @@ function App() {
             <div className="projects-container">
 
                 <div className="project-card">
+
                     <img src={portfolioImg} alt="Portfolio screenshot" />
 
                     <h3>Personal Portfolio Website</h3>
@@ -132,14 +133,23 @@ function App() {
                 </div>
 
                 <div className="project-card">
-                    <h3>Course Planner (In Progress)</h3>
-                    <p>Java application for planning semesters, tracking courses, and
-                        monitoring academic progress.
+
+                    <img src={coursePlannerImg1} alt="Portfolio screenshot" />
+
+                    <h3>Course Planner</h3>
+                    <p>Java 21 console application that manages college courses, students, and 
+                        enrollment using object-oriented programming, file persistence,
+                        input validation, duplicate-course prevention, and reporting.
                     </p>
+
+                    <a href="https://github.com/paterson-tia/course-planner" 
+                    target="_blank" rel="noopener noreferrer">
+                        View Project
+                    </a>
                 </div>
 
                 <div className="project-card">
-                    <h3>Data Structures Explorer (Planned)</h3>
+                    <h3>Data Structures Study Assistant (Planned)</h3>
                     <p>C++ project demonstrating linked lists, stacks, queues, trees,
                         and algorithm analysis.
                     </p>
